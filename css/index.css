@@ -4,3 +4,15 @@ body{
     font-family:arial;
     background-color:#bbeaeb;
 }
+h1{
+    font-size: 50px;
+}
+h3{
+    font-size: 25px;
+}
+h4{
+    font-size: 20px;
+}
+p{
+    font-size: 15px;
+}
