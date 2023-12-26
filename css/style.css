@@ -47,14 +47,16 @@ h4{
 }
 main{
   display: flex;
-  justify-content: space-between;
   margin-top:50px;
-  flex-direction: column;
+  flex-direction: row;
+  width: 900px;
+  justify-content: space-between;
 } 
-@media (min-width:950px) {
+@media (max-width:950px) {
   main{
-    width: 900px;
-    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   } 
 }
 article{
