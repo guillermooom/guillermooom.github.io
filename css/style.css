@@ -27,15 +27,14 @@ nav{
 
 /* BODY */
 body{
-  background-color:#1C1678;
+  background-color:#6482AD;
   font-family: "Montserrat", sans-serif;
   display:flex;
   flex-direction: column;
   justify-content:center;
   align-items: center;
   text-align: center;
-  /*color:#202020;*/
-  color:white;
+  color:#202020;
 }
 main{
   padding:50px;
@@ -43,6 +42,7 @@ main{
 #titulos{
   width: 750px;
   padding: 25px;
+  
 }
 @media (max-width:800px) {
   #titulos{
@@ -54,14 +54,13 @@ main{
 }
 h1{
   font-size: 40px;
-  margin:50px 0;
+  margin:50px 15px;
 }
 p{
   text-align: left;
   line-height: 2;
   font-size: 15px;
 }
-
 
 /* FOOTER */
 footer{
