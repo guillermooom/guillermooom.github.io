@@ -27,7 +27,6 @@ nav{
 
 /* BODY */
 body{
-  background-color:#1C1678;
   font-family: "Montserrat", sans-serif;
   display:flex;
   flex-direction: column;
@@ -35,7 +34,6 @@ body{
   align-items: center;
   text-align: center;
   /*color:#202020;*/
-  color:white;
 }
 main{
   padding:50px;
