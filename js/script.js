@@ -4,18 +4,14 @@ if (document.addEventListener) {
     window.attachEvent("onload", inicio);
 }
 
-function inicio() {
+function inicio(){
     let tema = document.getElementById("tema");
 
     // Verificar si hay un tema guardado en localStorage
     let temaGuardado = localStorage.getItem("tema");
-
-    // Si no hay un tema guardado, establecer "oscuro" como el default
-    if (!temaGuardado) {
-        temaGuardado = "oscuro";
+    if (temaGuardado) {
+        aplicarTema(temaGuardado);
     }
-
-    aplicarTema(temaGuardado);
 
     if (document.addEventListener) {
         tema.addEventListener("click", cambio_tema);
@@ -24,10 +20,10 @@ function inicio() {
     }
 }
 
-function cambio_tema() {
+function cambio_tema(){
     let tema = document.getElementById("tema");
     let tex = tema.getAttribute("color");
-
+    
     if (tex === "oscuro") {
         tema.setAttribute("color", "claro");
         aplicarTema("claro");
@@ -44,13 +40,11 @@ function aplicarTema(tema) {
     let foot = document.querySelector('footer');
 
     if (tema === "oscuro") {
-        tema.setAttribute("color", "oscuro"); // Actualizar el atributo del botón
         ima.src = "img/moon.png";
         cuerpo.style.backgroundColor = "#1C1678";
         titulos.style.color = "#fff";
         foot.style.backgroundColor = "#8576FF";
     } else if (tema === "claro") {
-        tema.setAttribute("color", "claro"); // Actualizar el atributo del botón
         ima.src = "img/sun.png";
         cuerpo.style.backgroundColor = "#E2DAD6";
         titulos.style.color = "#202020";
