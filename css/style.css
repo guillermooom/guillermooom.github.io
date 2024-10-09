@@ -51,6 +51,11 @@ main{
   #titulos > p{
     padding: 25px;
   }
+  #imagenBtn{
+    padding: 10px;
+    width: 15px;
+    height: 15px;
+  }
 }
 h1{
   font-size: 40px;
