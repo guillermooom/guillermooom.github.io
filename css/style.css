@@ -46,12 +46,20 @@ main{
   padding: 25px;
   
 }
+.links{
+  text-decoration:none;
+  color:white;
+}
 @media (max-width:800px) {
   #titulos{
     width: 100%;   
   }
   #titulos > p{
     padding: 25px;
+  }
+  #imagenBtn{
+    width:15px;
+    heigth:15px;
   }
 }
 h1{
