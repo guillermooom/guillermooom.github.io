@@ -38,16 +38,19 @@ function aplicarTema(tema) {
     let titulos = document.getElementById("titulos");
     let ima = document.getElementById("imagenBtn");
     let foot = document.querySelector('footer');
+    let link = document.getElementById("link");
 
     if (tema === "oscuro") {
         ima.src = "img/moon.png";
         cuerpo.style.backgroundColor = "#1C1678";
         titulos.style.color = "#fff";
+        link.style.color = "#fff";
         foot.style.backgroundColor = "#8576FF";
     } else if (tema === "claro") {
         ima.src = "img/sun.png";
         cuerpo.style.backgroundColor = "#E2DAD6";
         titulos.style.color = "#202020";
+        links.style.color = "#202020";
         foot.style.backgroundColor = "#6482AD";
     }
 
