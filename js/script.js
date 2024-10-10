@@ -21,7 +21,6 @@ function inicio(){
 }
 
 function cambio_tema(){
-    alert();
     let tema = document.getElementById("tema");
     let tex = tema.getAttribute("color");
     
