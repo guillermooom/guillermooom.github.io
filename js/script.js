@@ -51,7 +51,7 @@ function aplicarTema(tema) {
         ima.src = "img/sun.png";
         cuerpo.style.backgroundColor = "#E2DAD6";
         titulos.style.color = "#202020";
-        links.style.color = "#202020";
+        link.style.color = "#202020";
         foot.style.backgroundColor = "#6482AD";
     }
 
