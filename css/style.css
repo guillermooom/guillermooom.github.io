@@ -45,8 +45,10 @@ main{
   
 }
 #link{
-  text-decoration:none;
   color:#202020;
+}
+#link:hover{
+  font-weight:bold;
 }
 @media (max-width:800px) {
   #titulos{
